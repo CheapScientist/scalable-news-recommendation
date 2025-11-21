@@ -1,0 +1,4 @@
+data/mind/
+.venv/*
+*.zip
+.idea/*
