@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=em_mpi_gpu
-#SBATCH --partition=pace-gpu
+#SBATCH --partition=ice-gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4          # 4 MPI ranks
 #SBATCH --gres=gpu:v100:4            # 4 GPUs (or l40s:4)
-#SBATCH --time=00:50:00
+#SBATCH --time=01:50:00
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=64G
 #SBATCH --output=em_mpi_gpu_%j.out

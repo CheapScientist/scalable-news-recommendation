@@ -1,0 +1,244 @@
+---------------------------------------
+Begin Slurm Prolog: Nov-20-2025 23:38:12
+Job ID:    3608846
+User ID:   cpei6
+Account:   phys
+Job name:  em_gpu
+Partition: ice-gpu
+QOS:       coc-ice
+---------------------------------------
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+
+Lmod is automatically replacing "mvapich2/2.3.7-1" with "openmpi/4.1.5".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) gmp/6.2.1     2) mpc/1.3.1     3) mpfr/4.2.0     4) zlib/1.2.13
+
+Running EM on GPU...
+Loading document-term matrix from data/processed/doc_term.npz...
+Matrix shape: (51282, 20981)
+Loading vocab from data/processed/vocab.txt...
+Vocab size: 20981
+Using device: cuda
+Nonzeros: 1199477
+
+=== [GPU] EM iteration 1/30 ===
+Log-likelihood: -14561444.1688
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 2/30 ===
+Log-likelihood: -12151602.2222
+Relative change: 1.654947e-01
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 3/30 ===
+Log-likelihood: -11950005.5577
+Relative change: 1.659013e-02
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 4/30 ===
+Log-likelihood: -11803092.4671
+Relative change: 1.229398e-02
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 5/30 ===
+Log-likelihood: -11710336.1209
+Relative change: 7.858648e-03
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 6/30 ===
+Log-likelihood: -11652571.4535
+Relative change: 4.932793e-03
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 7/30 ===
+Log-likelihood: -11615380.3750
+Relative change: 3.191663e-03
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 8/30 ===
+Log-likelihood: -11589914.7982
+Relative change: 2.192401e-03
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 9/30 ===
+Log-likelihood: -11571110.7777
+Relative change: 1.622447e-03
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 10/30 ===
+Log-likelihood: -11556849.1480
+Relative change: 1.232520e-03
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 11/30 ===
+Log-likelihood: -11546101.4427
+Relative change: 9.299858e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 12/30 ===
+Log-likelihood: -11537901.0034
+Relative change: 7.102345e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 13/30 ===
+Log-likelihood: -11531264.8140
+Relative change: 5.751644e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 14/30 ===
+Log-likelihood: -11525532.7534
+Relative change: 4.970886e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 15/30 ===
+Log-likelihood: -11520898.6138
+Relative change: 4.020760e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 16/30 ===
+Log-likelihood: -11516700.3778
+Relative change: 3.644018e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 17/30 ===
+Log-likelihood: -11512738.3815
+Relative change: 3.440218e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 18/30 ===
+Log-likelihood: -11508925.9277
+Relative change: 3.311509e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 19/30 ===
+Log-likelihood: -11505646.2979
+Relative change: 2.849640e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 20/30 ===
+Log-likelihood: -11503005.5110
+Relative change: 2.295210e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 21/30 ===
+Log-likelihood: -11500776.4120
+Relative change: 1.937841e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 22/30 ===
+Log-likelihood: -11498578.7569
+Relative change: 1.910875e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 23/30 ===
+Log-likelihood: -11496285.8001
+Relative change: 1.994122e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 24/30 ===
+Log-likelihood: -11494427.6047
+Relative change: 1.616344e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 25/30 ===
+Log-likelihood: -11492759.8623
+Relative change: 1.450914e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 26/30 ===
+Log-likelihood: -11491155.4117
+Relative change: 1.396053e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 27/30 ===
+Log-likelihood: -11489611.3347
+Relative change: 1.343709e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 28/30 ===
+Log-likelihood: -11488000.3866
+Relative change: 1.402091e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 29/30 ===
+Log-likelihood: -11486817.8959
+Relative change: 1.029327e-04
+Updating topic-word distributions on cuda ...
+
+=== [GPU] EM iteration 30/30 ===
+Log-likelihood: -11485586.8009
+Relative change: 1.071746e-04
+Updating topic-word distributions on cuda ...
+
+Final log-likelihoods:
+Iter 0: -14561444.1688
+Iter 1: -12151602.2222
+Iter 2: -11950005.5577
+Iter 3: -11803092.4671
+Iter 4: -11710336.1209
+Iter 5: -11652571.4535
+Iter 6: -11615380.3750
+Iter 7: -11589914.7982
+Iter 8: -11571110.7777
+Iter 9: -11556849.1480
+Iter 10: -11546101.4427
+Iter 11: -11537901.0034
+Iter 12: -11531264.8140
+Iter 13: -11525532.7534
+Iter 14: -11520898.6138
+Iter 15: -11516700.3778
+Iter 16: -11512738.3815
+Iter 17: -11508925.9277
+Iter 18: -11505646.2979
+Iter 19: -11503005.5110
+Iter 20: -11500776.4120
+Iter 21: -11498578.7569
+Iter 22: -11496285.8001
+Iter 23: -11494427.6047
+Iter 24: -11492759.8623
+Iter 25: -11491155.4117
+Iter 26: -11489611.3347
+Iter 27: -11488000.3866
+Iter 28: -11486817.8959
+Iter 29: -11485586.8009
+
+Top words per topic (GPU):
+Topic 0: new tour one said woods first tiger fire cup world
+Topic 1: school said new year says family man police high old
+Topic 2: new city said johnson election year york president trump mayor
+Topic 3: fire california new said county 000 homes first one two
+Topic 4: new best make one food home first holiday time thanksgiving
+Topic 5: patriots new nfl brady england team tom week trade one
+Topic 6: weather snow cold said storm week temperatures new area forecast
+Topic 7: school said police county new year high city students old
+Topic 8: veterans day new years year cancer said veteran city one
+Topic 9: apartments get top city photos new price budget rent real
+Topic 10: game season week win night first 1 3 2 team
+Topic 11: 2019 new day best year see news like one years
+Topic 12: police man said year old fire county woman found home
+Topic 13: new said year city one police man two flight home
+Topic 14: trump u president syria said new year us turkey says
+Topic 15: astros series game world nationals yankees new manager season team
+Topic 16: nascar year race vaping school said one state series county
+Topic 17: trump president impeachment house inquiry ukraine former donald democrats democratic
+Topic 18: police crash said man car road driver near killed county
+Topic 19: week game football state season team first nfl win coach
+
+Saving GPU parameters to data/processed/em_gpu_k20.npz...
+Done (GPU EM).
+---------------------------------------
+Begin Slurm Epilog: Nov-20-2025 23:43:33
+Job ID:        3608846
+User ID:       cpei6
+Account:       phys
+Job name:      em_gpu
+Resources:     cpu=4,gres/gpu:v100=1,mem=32G,node=1
+Rsrc Used:     cput=00:21:24,vmem=0,walltime=00:05:21,mem=820264K,energy_used=0
+Partition:     ice-gpu
+QOS:           coc-ice
+Nodes:         atl1-1-02-010-33-0
+---------------------------------------
