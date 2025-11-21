@@ -1,12 +1,4 @@
----------------------------------------
-Begin Slurm Prolog: Nov-20-2025 23:12:34
-Job ID:    3608811
-User ID:   cpei6
-Account:   phys
-Job name:  em_gpu_test
-Partition: ice-gpu
-QOS:       coc-ice
----------------------------------------
+
 
 CondaError: Run 'conda init' before 'conda deactivate'
 
@@ -230,15 +222,4 @@ Topic 19: trump impeachment president house inquiry democrats donald rep public 
 
 Saving GPU parameters to data/processed/em_gpu_k20.npz...
 Done (GPU EM).
----------------------------------------
-Begin Slurm Epilog: Nov-20-2025 23:15:24
-Job ID:        3608811
-User ID:       cpei6
-Account:       phys
-Job name:      em_gpu_test
-Resources:     cpu=4,gres/gpu:l40s=1,mem=32G,node=1
-Rsrc Used:     cput=00:11:24,vmem=0,walltime=00:02:51,mem=812876K,energy_used=0
-Partition:     ice-gpu
-QOS:           coc-ice
-Nodes:         atl1-1-03-004-23-0
----------------------------------------
+
