@@ -8,7 +8,7 @@ from mpi4py import MPI
 from scipy.sparse import load_npz
 
 
-DATA_DIR = "data/processed"
+DATA_DIR = "../data/processed"
 
 
 def load_data(doc_term_path, vocab_path):
