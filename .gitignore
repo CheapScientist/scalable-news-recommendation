@@ -2,3 +2,6 @@ data/mind/
 .venv/*
 *.zip
 .idea/*
+scripts/*.out
+*.out
+
